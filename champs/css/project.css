@@ -1,0 +1,251 @@
+body{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	/*background-color: #000000;*/
+	background-color:#000;
+	min-width: 920px;
+	min-height: 1000px;
+	margin:0px;
+	text-rendering: optimizeLegibility;
+}
+h1{
+	font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, Arial, sans-serif;	/*background-color: #000000;*/
+	color:#FFF;
+	font-size:3.2em;
+	font-weight: 100;
+	text-rendering: optimizeLegibility;
+}
+p{
+	font-size: 1.2em;
+}
+#topgradient{
+	position:absolute;
+	top:0%;
+	left:0%;
+	width:100%;
+	height:3%;
+
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+}
+#mainContent{
+	width:1100px;
+	margin-top:80px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+#controlsHolder{
+	position:relative;
+	margin-left:140px;
+	margin-top:0px;	
+}
+
+#mapHolder{
+	width:100%;
+	height:540px;
+}
+#yearLabel{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 4em;	
+	color:#999999;
+}
+
+#slider-range{
+	position:relative;
+	top:5px;
+	left:0px;
+	width:800px;
+	margin-bottom:60px;
+}
+.ui-widget-content{
+	background: #222;
+	border:1px #333 solid;
+}
+.ui-slider-handle{
+	background: #999;
+	border:1px #333 solid;
+	
+}
+#sliderButs{
+	position:absolute;
+	top:35px;
+	right:100px;
+	width:380px;
+	height:40px;
+	
+}
+.sliderBut{
+	position:relative;
+	float:left;
+	margin-right: 4px;
+	border:1px #666 solid;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 1.0em;	
+	color:#666;
+	
+	cursor:pointer;
+	
+}
+.sliderBut:hover{
+	border:1px #CCC solid;
+	color:#CCC;
+}
+.sliderBut.active{
+	border:1px #AAA solid;
+	color:#AAA;
+}
+
+#thetags{
+	position:relative;
+	
+	
+	
+}
+.champTagHolder{
+	position:relative;
+	margin-left: 0px;
+	margin-top: 2px;
+	padding:2px;
+	color:#999;	
+	
+}
+.champTags{
+
+	position:absolute;
+	left:80px;
+	top:0px;
+	
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 1.3em;	
+	color:#EEE;
+	height:28px;
+	width:500px;
+	padding: 10px;
+	white-space: nowrap;
+	overflow:hidden;
+	cursor:pointer;
+	margin-top:-10px;
+}
+.trail{
+	font-weight: normal;
+	font-size: 0.7em;
+	
+}
+.teaserDiv{
+	position:absolute;
+	top:2px;
+	left:620px;
+	font-weight: bold;
+	font-size: 14px;
+	color:#999;
+	cursor:pointer;
+	text-decoration: none;
+	
+}
+.teaserDiv:hover{
+	color:#FFFFFF;
+}
+
+
+#nextDiv{
+	position:fixed;
+	top:0%;
+	right:10%;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #222;
+	color:#999;
+	padding:10px;
+	text-decoration: none;	
+	cursor:pointer;
+	z-index: 9999;
+}
+#nextDiv:hover{
+	color:#FFFFFF;
+	-moz-box-shadow:    0px 10px 15px -10px #000;
+	-webkit-box-shadow: 0px 10px 15px -10px #000;
+	box-shadow:         0px 10px 15px -10px #000;
+}
+
+#bottomButs{
+	position:relative;
+	height:200px;
+	width:650px;
+	padding:40px;
+	top:0px;
+	left:100px;
+	
+	
+}
+
+.simpleButs{
+	float:left;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	margin-right:3px;
+	background-color: none;
+	color:#CCC;
+	padding:5px;
+	text-decoration: none;	
+	
+}
+.simpleButs:hover{
+	background-color: black;
+	color:#FFF;
+	
+	
+}
+.light{
+	color:#666;
+	font-weight: 200;
+}
+
+.light a{
+	color:#999;
+}
+#likeBut{
+	color:#666;
+}
+
+
+.NFL{
+	background-color:#8A9B0F;
+}
+.MLB{
+	background-color:#BD1550;
+}
+.NBA{
+	background-color:#E97F02;
+}
+.NCAAM{
+	background-color:#F8CA00;
+	color:#333;
+}
+.NHL{
+	background-color:#07D4F5;
+}
+.clear { clear: both; }
+.unselectable{
+	/* FOR USE WITH ELEMENTS (LIKE BUTTONS) WHERE THE TEXT SHOULD NOT BE SELECTABLE */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
